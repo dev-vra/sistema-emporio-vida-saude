@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Banco de Dados e Ambientes Virtuais (Python)
+# ---------------------------------------------
+/backend/venv/
+/backend/*.db
+/backend/*.db-journal
+
+# Dependências e Logs (Node.js)
+# ---------------------------------------------
+/frontend/node_modules/
+/frontend/dist/
+npm-debug.log*
+yarn-error.log
+pnpm-debug.log
+
+# Build & Packaging de Aplicações
+# ---------------------------------------------
+/dist/
+/release/
+/out/
+/build/
+
+# Configurações de IDE e Editores
+# ---------------------------------------------
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sublime-workspace
+
+# Arquivos gerados pelo Sistema Operacional
+# ---------------------------------------------
+.DS_Store
+Thumbs.db
+
+# Arquivos de Variáveis de Ambiente
+# NUNCA envie senhas ou chaves de API para o GitHub!
+# ---------------------------------------------
+.env
+.env.*
+!.env.example
